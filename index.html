@@ -8,102 +8,107 @@
 
 <body>
 
-<h1 id="title">Encuesta de Experiencia Gamer</h1>
+  <!-- Encabezado y descripción principal -->
+  <h1 id="title">Encuesta de Experiencia Gamer</h1>
 
-<p id="description">
-  Ayúdanos a conocer tus gustos sobre videojuegos y mejorar futuras experiencias.
+  <p id="description">
+    Ayúdanos a conocer tus gustos sobre videojuegos y mejorar futuras experiencias.
   </p>
 
-<form id="survey-form">
+  <!-- Formulario de encuesta -->
+  <form id="survey-form">
 
-  <label id="name-label" for="name">Nombre</label>
+    <!-- Datos personales -->
+    <label id="name-label" for="name">Nombre</label>
 
-  <input
-  id="name"
-  type="text"
-  placeholder="Escribe tu nombre"
-  required
-  >
+    <input
+    id="name"
+    type="text"
+    placeholder="Escribe tu nombre"
+    required
+    >
 
-<br><br> 
+    <br><br> 
 
-<label id="email-label" for="email">Correo electronico</label>
+    <label id="email-label" for="email">Correo electronico</label>
 
-<input
-id="email"
-type="email"
-placeholder="ejemplo@correo.com"
-required
->
+    <input
+    id="email"
+    type="email"
+    placeholder="ejemplo@correo.com"
+    required
+    >
 
-<br><br>
+    <br><br>
 
-<label id="number-label" for="number">Edad</label>
+    <label id="number-label" for="number">Edad</label>
 
-<input
-id="number"
-type="number"
-min="10"
-max="99"
-placeholder="Ingresa tu edad">
+    <input
+    id="number"
+    type="number"
+    min="10"
+    max="99"
+    placeholder="Ingresa tu edad">
 
-<br><br>
+    <br><br>
 
-<label for="dropdown">¿Cuál es tu género favorito?</label>
+    <!-- Preferencias y hábitos de juego -->
+    <label for="dropdown">¿Cuál es tu género favorito?</label>
 
-<select id="dropdown">
-<option value="accion">Acción</option>
-<option value="aventura">Aventura</option>
-<option value="terror">Terror</option>
-<option value="deportes">Deportes</option>
-</select>
+    <select id="dropdown">
+      <option value="accion">Acción</option>
+      <option value="aventura">Aventura</option>
+      <option value="terror">Terror</option>
+      <option value="deportes">Deportes</option>
+    </select>
 
-<br><br>
+    <br><br>
 
-<p>¿Con qué frecuencia juegas?</p>
+    <p>¿Con qué frecuencia juegas?</p>
 
-<label>
-  <input type="radio" name="frecuencia" value="diario">
-  Diario
-</label>
+    <label>
+      <input type="radio" name="frecuencia" value="diario">
+      Diario
+    </label>
 
-<label>
-  <input type="radio" name="frecuencia" value="semanal">
-  Semanal
-</label>
+    <label>
+      <input type="radio" name="frecuencia" value="semanal">
+      Semanal
+    </label>
 
-<br><br>
+    <br><br>
 
-<p>¿En qué plataformas juegas?</p>
+    <p>¿En qué plataformas juegas?</p>
 
-<label>
-  <input type="checkbox" value="pc"> 
-  PC
-</label>
+    <label>
+      <input type="checkbox" value="pc"> 
+      PC
+    </label>
 
-<label>
-  <input type="checkbox" value="consola">
-  Consola
-</label>
+    <label>
+      <input type="checkbox" value="consola">
+      Consola
+    </label>
 
-<label>
-  <input type="checkbox" value="móvil">
-  Móvil
-</label> 
+    <label>
+      <input type="checkbox" value="móvil">
+      Móvil
+    </label> 
 
-<br><br>
+    <br><br>
 
-<label for="comments">Comentarios adicionales</label>
-<br>
-<textarea
-id="comments"
-placeholder="Escribe tu comentarios aquí..."
-></textarea>
+    <!-- Comentarios y envío -->
+    <label for="comments">Comentarios adicionales</label>
+    <br>
+    <textarea
+    id="comments"
+    placeholder="Escribe tu comentarios aquí..."
+    ></textarea>
 
-<br><br>
+    <br><br>
 
-<button id="submit" type="submit">Enviar encuesta</button>
+    <button id="submit" type="submit">Enviar encuesta</button>
 
-</form>
+  </form>
 </body> 
 </html>
